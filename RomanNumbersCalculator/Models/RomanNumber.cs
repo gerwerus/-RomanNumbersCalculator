@@ -9,7 +9,7 @@ namespace RomanNumbersCalculator.Models
 {
     internal class RomanNumber : IComparable, ICloneable
     {
-        private ushort arabic = 1;
+        private ushort arabic = 0;
         private string roman = "";
         private readonly static Dictionary<ushort, string> ra = new Dictionary<ushort, string>
     { { 1000, "M" },  { 900, "CM" },  { 500, "D" },  { 400, "CD" },  { 100, "C" },
